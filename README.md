@@ -1,4 +1,4 @@
-# 🌾 AgriWater Optimizer
+#  AgriWater Optimizer
 
 **Système d'optimisation énergétique pour irrigation agricole intelligente au Sahel**
 
@@ -8,20 +8,20 @@
 
 ---
 
-## 📋 Contexte & Problématique
+##  Contexte & Problématique
 
 Les exploitations agricoles au Sahel font face à des défis énergétiques majeurs:
-- ⚡ Coûts électriques élevés pour systèmes irrigation (30-40% charges opérationnelles)
-- 💸 Pénalités dépassement puissance souscrite SONABEL
-- 🌞 Sous-exploitation énergie solaire disponible
-- 📊 Planification manuelle inefficace du pompage
-- 💧 Gaspillage eau par irrigation aux heures chaudes (évaporation)
+-  Coûts électriques élevés pour systèmes irrigation (30-40% charges opérationnelles)
+-  Pénalités dépassement puissance souscrite SONABEL
+-  Sous-exploitation énergie solaire disponible
+-  Planification manuelle inefficace du pompage
+-  Gaspillage eau par irrigation aux heures chaudes (évaporation)
 
 **Ce projet propose une solution d'optimisation mathématique par programmation linéaire mixte (MILP) pour réduire les coûts énergétiques tout en maintenant l'approvisionnement optimal des cultures.**
 
 ---
 
-## 🎯 Objectifs
+##  Objectifs
 
 1. **Minimiser coûts** énergétiques (réseau + panneaux solaires)
 2. **Optimiser timing** irrigation (éviter heures pleines & évaporation)
@@ -31,7 +31,7 @@ Les exploitations agricoles au Sahel font face à des défis énergétiques maje
 
 ---
 
-## 🛠️ Architecture Technique
+##  Architecture Technique
 
 ### Stack Technologique
 - **Langage:** Python 3.8+
@@ -56,7 +56,7 @@ agriwater-optimizer/
 
 ---
 
-## 🚀 Installation & Utilisation
+##  Installation & Utilisation
 
 ### Prérequis
 
@@ -101,7 +101,7 @@ Les résultats sont générés dans `results/`:
 
 ---
 
-## 📊 Résultats Démontrés
+##  Résultats Démontrés
 
 ### Simulation 30 jours - Ferme 50 hectares (3 pompes)
 
@@ -112,14 +112,14 @@ Les résultats sont générés dans `results/`:
 | **Énergie réseau (kWh)** | 38,400 | 36,200 | **-5.7%** |
 | **Utilisation solaire** | 15% | 42% | **+180%** |
 
-**💰 Économies mensuelles estimées: ~770,000 FCFA**  
-**📈 ROI système: < 4 mois**
+** Économies mensuelles estimées: ~770,000 FCFA**  
+** ROI système: < 4 mois**
 
 ![Comparaison Coûts](results/cost_comparison_example.png)
 
 ---
 
-## 🧮 Formulation Mathématique
+##  Formulation Mathématique
 
 ### Variables de Décision
 - `x[p,t] ∈ {0,1}` : État pompe irrigation `p` à l'heure `t`
@@ -152,17 +152,17 @@ Coût_Total = Σ[t=0..T] (
 
 ---
 
-## 💡 Cas d'Usage
+##  Cas d'Usage
 
-✅ **Maraîchage intensif** (tomates, oignons, choux)  
-✅ **Riziculture irriguée**  
-✅ **Arboriculture fruitière** (mangues, agrumes)  
-✅ **Systèmes goutte-à-goutte** haute pression  
-✅ **Irrigation pivot central**
+ **Maraîchage intensif** (tomates, oignons, choux)  
+ **Riziculture irriguée**  
+ **Arboriculture fruitière** (mangues, agrumes)  
+ **Systèmes goutte-à-goutte** haute pression  
+ **Irrigation pivot central**
 
 ---
 
-## 🌍 Impact & Contexte Sahel
+##  Impact & Contexte Sahel
 
 ### Problématique Régionale
 - 80% population Burkina Faso dépend agriculture
@@ -174,15 +174,15 @@ Coût_Total = Σ[t=0..T] (
 **Système décisionnel intelligent accessible aux petits/moyens exploitants**
 
 ### Bénéfices
-- 🌾 Amélioration rendements (irrigation optimale)
-- 💰 Réduction 15-25% charges énergétiques
-- 🌞 Valorisation investissements solaires
-- 💧 Conservation ressource eau (moins évaporation)
-- 📈 Rentabilité accrue exploitations
+-  Amélioration rendements (irrigation optimale)
+-  Réduction 15-25% charges énergétiques
+-  Valorisation investissements solaires
+-  Conservation ressource eau (moins évaporation)
+-  Rentabilité accrue exploitations
 
 ---
 
-## 🔮 Roadmap Développement
+##  Roadmap Développement
 
 ### v1.0 (Actuel)
 - [x] Optimisation monosite 24-72h
@@ -210,7 +210,7 @@ Coût_Total = Σ[t=0..T] (
 
 ---
 
-## 🤝 Contribution
+##  Contribution
 
 Les contributions sont bienvenues! Pour contribuer:
 
@@ -229,7 +229,7 @@ Les contributions sont bienvenues! Pour contribuer:
 
 ---
 
-## 📚 Documentation Technique
+##  Documentation Technique
 
 Documentation complète disponible dans `/docs`:
 - Architecture système détaillée
@@ -240,7 +240,7 @@ Documentation complète disponible dans `/docs`:
 
 ---
 
-## 📝 Licence
+##  Licence
 
 **MIT License** - Voir fichier [LICENSE](LICENSE)
 
@@ -248,18 +248,18 @@ Ce projet est open-source et libre d'utilisation, modification et distribution.
 
 ---
 
-## 👤 Auteur
+##  Auteur
 
 **Abdoulaye Ouedraogo**  
 Data Science Enthusiast | Agricultural Systems Optimization
 
-📧 Email: abdoulayerg1@gmail.com  
-🔗 GitHub: [Abdoul202](https://github.com/Abdoul202)  
+ Email: abdoulayerg1@gmail.com  
+ GitHub: [Abdoul202](https://github.com/Abdoul202)  
 
 
 ---
 
-## 🙏 Remerciements
+##  Remerciements
 
 - **COIN-OR Foundation** pour le solveur CBC
 - **Python Community** pour l'écosystème data science
@@ -267,7 +267,7 @@ Data Science Enthusiast | Agricultural Systems Optimization
 
 ---
 
-## 📖 Citation
+##  Citation
 
 Si vous utilisez ce projet dans vos recherches ou applications, merci de citer:
 
@@ -279,7 +279,7 @@ GitHub repository: https://github.com/Abdoul202/agriwater-optimizer
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 Ce système est un outil d'aide à la décision. Les utilisateurs doivent:
 - Valider recommandations avec experts agronomes
