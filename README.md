@@ -291,4 +291,4 @@ Ce système est un outil d'aide à la décision. Les utilisateurs doivent:
 
 *Projet développé dans le cadre de recherches sur l'optimisation énergétique des infrastructures agricoles en Afrique de l'Ouest.*
 
-**⭐ Si ce projet vous est utile, n'hésitez pas à laisser une étoile!**
+** Si ce projet vous est utile, n'hésitez pas à laisser une étoile!**
