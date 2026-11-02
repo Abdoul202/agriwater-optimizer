@@ -254,8 +254,8 @@ Ce projet est open-source et libre d'utilisation, modification et distribution.
 Data Science Enthusiast | Agricultural Systems Optimization
 
 📧 Email: abdoulayerg1@gmail.com  
-🔗 GitHub: [@votre-username](https://github.com/votre-username)  
-💼 LinkedIn: [Votre profil](https://linkedin.com/in/votre-profil)
+🔗 GitHub: [Abdoul202](https://github.com/Abdoul202)  
+
 
 ---
 
@@ -274,7 +274,7 @@ Si vous utilisez ce projet dans vos recherches ou applications, merci de citer:
 ```
 Ouedraogo, A. (2026). AgriWater Optimizer: MILP-based Irrigation Scheduling 
 for Energy Cost Reduction in Sahelian Agriculture. 
-GitHub repository: https://github.com/[username]/agriwater-optimizer
+GitHub repository: https://github.com/Abdoul202/agriwater-optimizer
 ```
 
 ---
