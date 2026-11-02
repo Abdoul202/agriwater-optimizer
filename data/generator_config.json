@@ -1,0 +1,35 @@
+{
+  "start_date": "2026-01-01",
+  "days": 30,
+  "num_pumps": 3,
+  "tariff_peak": 110,
+  "tariff_offpeak": 75,
+  "subscribed_power": 150,
+  "penalty_rate": 200,
+  "pump_configs": [
+    {
+      "id": "P1",
+      "capacity_m3h": 60,
+      "power_kw": 45,
+      "efficiency": 0.75,
+      "age_years": 5,
+      "type": "principale"
+    },
+    {
+      "id": "P2",
+      "capacity_m3h": 50,
+      "power_kw": 38,
+      "efficiency": 0.72,
+      "age_years": 8,
+      "type": "secondaire"
+    },
+    {
+      "id": "P3",
+      "capacity_m3h": 55,
+      "power_kw": 42,
+      "efficiency": 0.73,
+      "age_years": 3,
+      "type": "appoint"
+    }
+  ]
+}

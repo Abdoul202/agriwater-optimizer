@@ -1,0 +1,9 @@
+{
+  "baseline_cost_fcfa": 339594.50213015696,
+  "optimized_cost_fcfa": 215185.0,
+  "savings_fcfa": 124409.50213015696,
+  "savings_percent": 36.63472210232494,
+  "monthly_projection_fcfa": 3732285.063904709,
+  "annual_projection_fcfa": 44787420.76685651,
+  "solve_time_seconds": 0.021304
+}
